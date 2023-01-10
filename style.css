@@ -63,37 +63,7 @@ body{
 
 }
 
-.text_video{
 
-    display: block;
-    position: absolute;
-    width: 430px;
-    height: 85px;
-    left: 225px;
-    top: 560px;
-    color: darkblue;
-    text-shadow: 0 0 darkred;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    text-align: center;
-   
-    
-}
-
-
-
-.video{
-
-   /*posición del video*/
-    top: 650px;
-    display: flex;
-    left: 250px;
-    position: absolute;
-    box-shadow: 0px 24px 32px -2px #609ED4;
-}
 
 
 nav a:hover{
@@ -483,7 +453,7 @@ nav a:hover{
 
             /* azul*/
             color: blue;
-            background-color: white;
+            /*background-color: white;*/
 
             
              
@@ -507,7 +477,7 @@ footer{
     color: darkblue;
     text-shadow: 0 0 darkred;
     font-size: 16px;
-    margin:16px;
+    margin:9px;
    
 }
 
@@ -516,7 +486,7 @@ footer{
      color: darkblue;
     text-shadow: 0 0 darkred;
     font-size: 16px;
-    margin:16px;
+    margin:9px;
     
 }
 
@@ -537,7 +507,7 @@ footer{
     header{
         position: relative;
         width: 768px;
-        height: 1384px;
+        height: 1174px;
     }
 
     footer{
@@ -555,7 +525,7 @@ footer{
 
         position: relative;
         width: 768px;
-        height: 1384px;
+        height: 1174px;
 
         /* Light blue/light-blue-100 */
         background: #F3F5FC;
@@ -568,7 +538,7 @@ footer{
 
         position: relative;
         width: 768px;
-        height: 1384px;
+        height: 1174px;
 
         /* Light blue/light-blue-100 */
         background: #F3F5FC;
@@ -626,66 +596,31 @@ footer{
         }
 
 
-        .text_video{
-
-            display: block;
-            position: absolute;
-            width: 450px;
-            height:100px;
-            left: 120px;
-            top: 620px;
-
-            color: #609ED4;
-            text-shadow: 0 0 red;
-
-            font-family: 'Inter';
-            font-style: italic;
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 150%;
-            text-align: center;
-           
-            
-        }
-
-
-
-        .video{
-
-           /*posición del video*/
-            top: 709px;
-            display: flex;
-            left: 175px;
-            position: absolute;
-            
-            }
-
+        
         .rectangulo1 { 
 
 
             /* Rectangle 1 */
-            display: flex;
-            position: absolute;
-            width: 688px;
-            height: 150px;
-            left: 40px;
-            top: 1101px;
-            padding: 9.5px;
-
-            border: 1px solid #0A3871;
-            border-radius: 24px;
-              
-            /* White */
-            background: #FFFFFF;
-
-            /* shadow */
-            box-shadow: 0px 24px 32px -2px #609ED4;
-            border-radius: 24px;
+               display: flex;
+                position: absolute;
+                width: 688px;
+                height: 690px;
+                left: 40px;
+                top: 385px;
+                /* padding: 9.5px; */
+                border: 1px solid #0A3871;
+                border-radius: 24px;
+                background: #FFFFFF;
+                box-shadow: 0px 24px 32px -2px #609ed4;
+                border-radius: 24px;
             
         }
 
     .muñeco{
-        display:none;
+        display: flex;
+        position: :absolute;
+        left: 200px;
+        top: 450px;
      }
     
 
@@ -693,8 +628,8 @@ footer{
         position: absolute;
         width: 336px;
         height: 304px;
-        left: 250px;
-        top: 1130px;
+        left: 225px;
+        top: 852px;
         width: 336px;
         height: 58px;
         font-family: 'Inter';
@@ -709,24 +644,22 @@ footer{
 
     .ingresotexto-muñeco {
 
-        position: absolute;
-        width: 400px;
-        height: 304px;
-        left: 225px;
-        top: 1180px;
-        padding: 2px;
-
-        /*fuente texto*/
-        width: 400px;
-        height: 67px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        color: blue;
-        background-color: white;
+            position: absolute;
+            width: 400px;
+            height: 304px;
+            left: 198px;
+            top: 930px;
+            padding: 2px;
+            width: 379px;
+            height: 67px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            color: blue;
+            background-color: white;
 
      }
 
@@ -974,7 +907,7 @@ footer{
     header{
         position: relative;
         width: 375px;
-        height: 1715px;
+        height: 933px;
     }
 
     footer{
@@ -993,7 +926,7 @@ footer{
 
         position: relative;
         width: 375px;
-        height: 1715px;
+        height: 933px;
 
         /* Light blue/light-blue-100 */
         background: #F3F5FC;
@@ -1041,7 +974,7 @@ footer{
         width: 343px;
         height: 145px;
         left: 16px;
-        top: 420px;
+        top: 120px;
 
 
         color: #0A3871;
@@ -1055,40 +988,7 @@ footer{
 
         }
 
-        .text_video{
-
-            display: block;
-            position: absolute;
-            width: 360px;
-            height: 100px;
-            left: 14px;
-            top: 880px;
-
-            color: #609ED4;
-            text-shadow: 0 0 red;
-
-            font-family: 'Inter';
-            font-style: italic;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 150%;
-            text-align: center;
-           
-            
-        }
-
-
-
-        .video{
-
-           /*posición del video*/
-            top: 990px;
-            display: flex;
-            left: 19px;
-            position: absolute;
-            box-shadow: 0px 24px 32px -2px #609ED4;
-        }
-
+      
 
         .rectangulo1{
 
@@ -1096,12 +996,11 @@ footer{
             /* Rectangle 1 */
         display: flex;
         position: absolute;
-                
-        position: absolute;
+        
         width: 327px;
-        height: 250px;
+        height: 455px;
         left: 24px;
-        top: 1420px;
+        top: 409px;
         padding: 3px;
 
         border: 1px solid #0A3871;
@@ -1117,26 +1016,30 @@ footer{
         }
 
     .muñeco{
-        display:none;
+               
+        display: flex;
+        position: :absolute;
+        left: 30px;
+        height: 250px;
+        width: 320px;
+        top: 430px;
      }
     
 
     .mensaje-muñeco {
 
         /*area texto*/
-        position: absolute;
+       position: absolute;
         width: 336px;
         height: 304px;
         left: 56px;
-        top: 1450px;
-
-        /*texto*/
-        width: 263px;
+        top: 689px;
+        width: 285px;
         height: 58px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 120%;
         text-align: center;
         color: #343A40;
@@ -1149,10 +1052,8 @@ footer{
         width: 400px;
         height: 304px;
         left: 56px;
-        top: 1538px;
-        padding: 2px;
-
-        /*fuente texto*/
+        top: 775px;
+        /* padding: 2px; */
         width: 263px;
         height: 58px;
         font-family: 'Inter';
