@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Área para mostrar el texto encriptado/desencriptado</title>
+        <link rel="stylesheet" href="CRLF.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+
+        <header>
+           <div class="Encriptado-desencriptado">
+             <h1><img class="logo" src="imagen/logo.png" alt="Logo de la Alura"></h1>
+              <nav>
+                    <ul>
+                        <li><a class="link" href="index.html">Volver a la páguina principal</a></li>
+                                                
+                    </ul>
+             </nav>
+               
+            </div>
+
+        </header>
+
+        
+        <main>
+            
+            <section class="simbolo_exclamacion_y_texto">
+
+                <div>
+                      <img class="exclamacion" src="imagen/bi_exclamation-circle-fill.png">
+                      <p class="Texto-exclamacion">Solo letras minúsculas y sin acentos</p>
+                                           
+                </div>
+
+            </section>
+                 
+                
+                <div class="rectangulo2"></div>
+
+
+                <div>
+               
+                       <textarea  id="ingresetexto" value= "ingesetexto" class="input-texto"  placeholder="ingrese el texto"></textarea>
+                        
+                        <button type="button" name="button" onclick="encriptarTexto()" class="button-encriptar" > Encriptar</button>
+
+                        <button type="button" name="button" onclick="desencriptarTexto()" class="button-desencriptar">Desencriptar</button> 
+
+                </div>
+
+                <div>
+                        
+                        <textarea  value= "ingesetexto2" id="ingresetexto2" class="input-texto2" style = "line-height: 1em"></textarea >
+                        
+                        <button type="button" name="button" onclick = "copiarTexto()"  id="copiar" type="button" name="button" class="button-copiar">Copiar</button>
+
+                </div>
+
+               
+
+
+                <div>
+                    
+                         <script >
+              
+                          // let texto=document.querySelector(".texto");  
+                             var texto="";
+                          // funcion para el primer boton de encripar texto
+
+                              function encriptarTexto(){
+
+                               
+                                var texto = document.getElementById("ingresetexto").value.toLowerCase();
+
+                               //i es para que afecte tanto para mayúsculas como para minúsculas
+                               // la g es para toda la linea
+                               // m es para que afecte a multiples lineas
+                               var nuevoTexto=texto.replace(/e/gim,"enter");
+                               var nuevoTexto=nuevoTexto.replace(/i/gim,"imes");
+                               var nuevoTexto=nuevoTexto.replace(/o/gim,"ober");
+                               var nuevoTexto=nuevoTexto.replace(/a/gim, "ai");
+                               var nuevoTexto=nuevoTexto.replace(/u/gim,"ufat");
+                                 
+                                 document.getElementById("ingresetexto2").innerHTML=nuevoTexto;
+
+                                 document.getElementById("copiar").style.display= "show";
+                                 document.getElementById("copiar").style.display= "inherit";
+
+                                 alert("¡Se ha encriptado el texto ingresado!");
+
+                               }  
+
+                               // funcion para el primer boton de desencripar texto
+                                function desencriptarTexto(){
+
+                               
+                                        var texto = document.getElementById("ingresetexto").value.toLowerCase();
+
+                                       //i es para que afecte tanto para mayúsculas como para minúsculas
+                                       // la g es para toda la linea
+                                       // m es para que afecte a multiples lineas
+                                       var nuevoTexto=texto.replace(/enter/gim,"e");
+                                       var nuevoTexto=nuevoTexto.replace(/imes/gim,"i");
+                                       var nuevoTexto=nuevoTexto.replace(/ober/gim,"o");
+                                       var nuevoTexto=nuevoTexto.replace(/ai/gim, "a");
+                                       var nuevoTexto=nuevoTexto.replace(/ufat/gim,"u");
+                                         
+                                         document.getElementById("ingresetexto2").innerHTML=nuevoTexto;
+
+                                         document.getElementById("copiar").style.display= "show";
+                                         document.getElementById("copiar").style.display= "inherit";
+
+                                         alert("¡Se ha desencriptado el texto ingresado!");
+
+                               }  
+
+
+                               
+                             function copiarTexto(){
+
+                                  var contenido = document.querySelector("copiar")
+                                 
+                                   
+                                    ingresetexto2.select();
+                                       
+                                
+                                  document.execCommand("cut");
+                                   // Vuelve a cargar la página actual sin la caché del navegador
+                                  location.reload();
+                                  alert("¡Se copio!");
+
+                               }
+
+                               
+
+                         </script>
+                </div>
+
+         
+        </main>
+        
+                
+         <footer>
+
+                <p class="copyright">&copy Copyright Challenge ONE Principiante en programación - Alura - 2023</p>
+                <p class="autor">@ Autor Sosa Carolina Inés</p>
+        </footer>
+
+    </body>
+
+</html>
