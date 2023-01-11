@@ -108,7 +108,7 @@ nav a:hover{
      /*efectos utlizando el pseudocódigo hover*/
     color: orange;
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 18px;
 
 }
 
@@ -273,9 +273,9 @@ nav a:hover{
 
     position: absolute;
     width: 336px;
-    height: 781px;
+    height: 300px;
     left: 1032px;
-    top: 100px;
+    top: 350px;
 
     /*texto*/
 
@@ -297,7 +297,7 @@ nav a:hover{
     /*limito el área de texto*/
      resize: vertical;
     min-height: 60px;
-    max-height: 550px;
+    max-height: 300px;
   
 }
 
@@ -394,6 +394,15 @@ nav a:hover{
     
 }
 
+.muñeco2{
+
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1080px;
+    top: 100px;
+
+}
 
 
 .muñeco{
@@ -649,6 +658,11 @@ footer{
         left: 200px;
         top: 450px;
      }
+
+     .muñeco2{
+
+        display: none;
+     }
     
 
     .mensaje-muñeco {
@@ -833,9 +847,9 @@ footer{
 
         position: absolute;
         width: 705px;
-        height: 560px;
+        height: 350px;
         left: 28px;
-        top: 460px;
+        top: 560px;
         padding: 0px;
 
 
@@ -860,7 +874,7 @@ footer{
     width: 72px;
     height: 131px;
     left: 55px;
-    top: 600px;
+    top: 570px;
     padding: 16px;
     
 
@@ -888,7 +902,7 @@ footer{
     /*limito el área de texto*/
      resize: vertical;
      min-height: 60px;
-     max-height: 345px;
+     max-height: 150px;
   
 }
 
@@ -898,7 +912,7 @@ footer{
 
     position: absolute;
      left: 230px;
-     top: 510px;
+     top: 790px;
 
    
     padding:  24px; 
@@ -917,7 +931,7 @@ footer{
         cursor:pointer;
 
       /* Dark blue/dark-blue-300 */
-      border: 1px solid #0A3871;
+      border: 2px solid #0A3871;
       border-radius: 24px;
 
 
@@ -1086,6 +1100,10 @@ footer{
         top: 380px;
      }
     
+     .muñeco2{
+
+        display: none;
+     }
 
     .mensaje-muñeco {
 
