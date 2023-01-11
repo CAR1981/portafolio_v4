@@ -331,6 +331,8 @@ nav a:hover{
       /* Dark blue/dark-blue-300 */
       border: 2px solid #0A3871;
       border-radius: 24px;
+
+
 }
 
 .button-copiar:hover{
@@ -598,6 +600,12 @@ footer{
 
     }
 
+    .link:hover{
+
+        font-size: 17px;
+
+    }
+
      .titulo{
 
         /*Encriptador o desencriptador de mensajes*/
@@ -715,7 +723,7 @@ footer{
         position: absolute;
         left: 40px;
         right: 0%;
-        top: 510px;
+        top: 321px;
         
 
         /*background: #67808E;*/
@@ -728,7 +736,7 @@ footer{
      width: 16px;
      height: 16px;
      left: 64px;
-     top: 510px;
+     top: 321px;
 
 
     /* Solo letras minúsculas y sin acentos */
@@ -759,7 +767,7 @@ footer{
         width: 688px;
         height: 48px;
         left: 25px;
-        top: 539px;
+        top: 355px;
 
           /*fuente*/      
             width: 332px;
@@ -788,7 +796,7 @@ footer{
          width: 680px;
          height: 288px;
          left: 396px;
-         top: 539px;
+         top: 355px;
 
 
          /* Button */
@@ -825,9 +833,9 @@ footer{
 
         position: absolute;
         width: 705px;
-        height: 400px;
+        height: 560px;
         left: 28px;
-        top: 645px;
+        top: 460px;
         padding: 0px;
 
 
@@ -851,14 +859,15 @@ footer{
     position: absolute;
     width: 72px;
     height: 131px;
-    left: 39px;
-    top: 679px;
+    left: 55px;
+    top: 600px;
     padding: 16px;
+    
 
     /*texto*/
 
-        width: 624px;
-        height: 180px;
+        width: 630px;
+        height: 320px;
 
         font-family: 'Inter';
         font-style: normal;
@@ -889,7 +898,7 @@ footer{
 
     position: absolute;
      left: 230px;
-     top: 950px;
+     top: 510px;
 
    
     padding:  24px; 
@@ -910,7 +919,10 @@ footer{
       /* Dark blue/dark-blue-300 */
       border: 1px solid #0A3871;
       border-radius: 24px;
-}
+
+
+
+  }
 
 
     
@@ -1008,6 +1020,11 @@ footer{
          font-weight: 400;
          font-size: 16px;
 
+    }
+
+    .link:hover{
+         
+         font-size: 17px;
     }
 
      .titulo{
@@ -1114,7 +1131,7 @@ footer{
     
               font-size: 18px;
 
-        } 
+        }
 
 
     .input-texto{
@@ -1279,7 +1296,7 @@ footer{
 
     position: absolute;
     left: 40px;
-    top: 459px;
+    top: 540px;
     padding: 1px;
     width: 300px;
     height: 242px;
@@ -1314,14 +1331,14 @@ footer{
     /* Button */
 
     position: absolute;
-     left: 48px;
-     top: 720px;
+     left: 85px;
+     top: 460px;
 
    
     padding:  24px; 
      /* Button */
 
-         width: 279px;
+         width: 210px;
          height: 67px;
 
         font-family: 'Inter';
