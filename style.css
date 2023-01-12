@@ -96,7 +96,7 @@ nav a:hover{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 120%;
     background-color:  #F3F5FC;
     padding: 0px;
@@ -118,7 +118,7 @@ nav a:hover{
     position: absolute;
     width: 550px;
     height: 150px;
-    left: 240px;
+    left: 140px;
     top: 168px;
     color:  #0A3871;
     /*background-color: #F3F5FC;*/
@@ -149,7 +149,7 @@ nav a:hover{
     position: absolute;
      width: 16px;
      height: 16px;
-     left: 240px;
+     left: 140px;
      top: 500px;
 
 
@@ -162,7 +162,7 @@ nav a:hover{
      position: absolute;
      width: 16px;
      height: 16px;
-     left: 264px;
+     left: 164px;
      top: 500px;
 
 
@@ -192,7 +192,7 @@ nav a:hover{
      position: absolute;
      width: 680px;
      height: 288px;
-     left: 240px;
+     left: 140px;
      top: 530px;
 
     /* Button  layout*/
@@ -222,7 +222,7 @@ nav a:hover{
 .button-encriptar:hover{
     background: white;
     transform: scale(1);
-    color: #0A3871;
+    color: #052051;
 }
 
 .button-desencriptar{
@@ -232,7 +232,7 @@ nav a:hover{
      position: absolute;
      width: 680px;
      height: 288px;
-     left: 592px;
+     left: 492px;
      top: 530px;
 
 
@@ -737,7 +737,7 @@ footer{
         position: absolute;
         left: 40px;
         right: 0%;
-        top: 321px;
+        top: 320px;
         
 
         /*background: #67808E;*/
@@ -750,7 +750,7 @@ footer{
      width: 16px;
      height: 16px;
      left: 64px;
-     top: 321px;
+     top: 320px;
 
 
     /* Solo letras minúsculas y sin acentos */
@@ -781,7 +781,7 @@ footer{
         width: 688px;
         height: 48px;
         left: 25px;
-        top: 355px;
+        top: 350px;
 
           /*fuente*/      
             width: 332px;
@@ -810,7 +810,7 @@ footer{
          width: 680px;
          height: 288px;
          left: 396px;
-         top: 355px;
+         top: 350px;
 
 
          /* Button */
@@ -1147,7 +1147,7 @@ footer{
 
      .ingresotexto-muñeco:hover{
     
-              font-size: 18px;
+              font-size: 17px;
 
         }
 
@@ -1313,11 +1313,11 @@ footer{
     /* Rectangle 1 */
 
     position: absolute;
-    left: 40px;
-    top: 540px;
-    padding: 1px;
+    left: 20px;
+    top: 475px;
+    padding: 16px;
     width: 300px;
-    height: 242px;
+    height: 198px;
 
     /*texto fuente*/
 
@@ -1350,7 +1350,7 @@ footer{
 
     position: absolute;
      left: 85px;
-     top: 460px;
+     top: 710px;
 
    
     padding:  24px; 
